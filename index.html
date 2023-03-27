@@ -30,28 +30,34 @@
         </h2>
 
         <div class="row">
+          
+          <div class="d-flex weather-temperature">
+            <img src="https://openweathermap.org/img/wn/01d.png" alt="Clear" id="icon" >
           <div class="col-6">
-            <span class="temperature" id="temperature">   </span>
+            <span class="temperature" id="temperature">00</span>
             <span class="units">
-              <a href="#" id="celsius">ºC</a>  
-          </div>
+              <a href="#" id="celsius"> ºC</a> | 
+              <a href="#" id="farenheit"> ºF</a>
+              </div>
 
           <div class="col-6 precipitation">
-            <div>
-            Weather: <span id="weather-description"></span> 
-            </div>
-            <br />
-            <div>
+            <ul class="weather-condition-ul">
+            <li>
+              Weather: <span id="weather-description"></span> 
+            </li>
+            <li>
             Humidity: <span id="humidity"></span>%
-            </div>
-            <br />
-            <div >
+            </li>
+            <li>
             Wind: <span id="wind"></span> 
+          </li>  
+          </ul>
+          </div>
           </div>
           </div>
           
 
-          <br />
+          
           <div class="days">
             <div class="row">
               <div class="col-2">
@@ -84,6 +90,9 @@
         </div>
       </div>
     
+
+
+
       <footer>
 
         <a href="https://github.com/Marmovader/weather-App-Rafa" target="_blank">Open-source code</a> 

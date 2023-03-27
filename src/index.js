@@ -33,16 +33,15 @@ function apiImport(city) {
 }
 
 function displayWeather(response) {
-  let tempEmoji = document.querySelector("#temperature");
   let temp = (document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   ));
-  if (temp >= 15) {
-    tempEmoji.innerHTML = `🔆 ${temp}`;
-  } else {
-    tempEmoji.innerHTML = `🥶 ${temp}`;
-  }
-
+  document
+    .querySelector("#icon")
+    .setAttribute(
+      "src",
+      `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
   document.querySelector("#weather-description").innerHTML =
     response.data.weather[0].main;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;

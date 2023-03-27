@@ -6,6 +6,12 @@ h1 {
 h2 {
   font-size: 18px;
 }
+footer {
+  padding: 0px 25px;
+}
+img {
+  object-fit: cover;
+}
 
 .container {
   max-width: fit-content;
@@ -23,7 +29,7 @@ h2 {
 
 .units {
   position: relative;
-  top: -14px;
+  top: -10px;
 }
 
 .precipitation {
@@ -34,4 +40,8 @@ h2 {
 
 .days {
   margin-top: 40px;
+}
+
+.weather-condition-ul {
+  list-style-type: none;
 }
