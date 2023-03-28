@@ -6,9 +6,11 @@ h1 {
 h2 {
   font-size: 18px;
 }
-footer {
-  padding: 0px 25px;
+
+h3 {
+  font-size: 16px;
 }
+
 img {
   object-fit: cover;
 }
@@ -17,6 +19,8 @@ img {
   max-width: fit-content;
   margin: 10px;
   color: rgb(89, 88, 88);
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .border {
