@@ -16,11 +16,14 @@ img {
 .container {
   max-width: fit-content;
   margin: 10px;
+  color: rgb(89, 88, 88);
 }
 
 .border {
   border-style: solid 1px black;
   padding: 30px;
+  border-radius: 10px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 .temperature {
   font-size: 40px;
@@ -44,4 +47,13 @@ img {
 
 .weather-condition-ul {
   list-style-type: none;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
