@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="border">
+<div class="container">
+  <div class="border">
         <form id="city-form">
           <input type="text" placeholder="City Search" id="city-search" />
           <button type="submit" class="btn btn-secondary">Search</button>
@@ -28,40 +28,60 @@
         </h2>
         <h3 id="weather-description"></h3>
 
-  <div class="row">
+   <div class="row">
           
-    <div class="d-flex weather-temperature" id="temp-weather">
+      <div class="d-flex weather-temperature" id="temp-weather">
             <img src="https://openweathermap.org/img/wn/01d.png" alt="Clear" id="icon" >
-        <div class="col-6">
+          <div class="col-6">
             <span class="temperature" id="temperature">00</span>
             <span class="units">
-              <a href="#" id="celsius-link" class="active"> ºC</a> | 
-              <a href="#" id="fahrenheit-link"> ºF</a>
-        </div>
+              <a href="#" id="celsius-link" class="active">ºC</a> | 
+              <a href="#" id="fahrenheit-link">ºF</a>
+          </div>
 
-          <div class="col-6 precipitation">
-            <ul class="weather-condition-ul">
+        <div class="col-6 precipitation">
+            
+          <ul class="weather-condition-ul">
             
             <li>
             Humidity: <span id="humidity"></span>%
             </li>
             <li>
             Wind: <span id="wind"></span> 
-          </li>  
-        </ul>
-      </div>
+            </li>  
+          </ul>
         </div>
+    </div>
   </div>
-          
 
-          
-       
-        
-        
-  
-  
-  
-  
+  <div class="weather-forecast" id="forecast">
+    <div class="row">
+    
+      <div class="col-2">
+        <div class="weather-forecast-date">
+day 1
+</div>
+<img src="https://openweathermap.org/img/wn/02n@2x.png" width="40px">
+<div class="weather-forecast-temperatures">
+  <span class="weather-forecast-max">
+
+18º</span> <span class="weather-forecast-min"> 12º</span> 
+</div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+ </div>
+
+
+
+
 </div>
 <footer>
   

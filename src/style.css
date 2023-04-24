@@ -71,3 +71,28 @@ img {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(110, 110, 110);
+}
+
+.weather-forecast-temperatures {
+  color: rgb(110, 110, 110);
+}
+.weather-forecast-min {
+  font-size: 13px;
+  color: black;
+  opacity: 0.6;
+}
+
+.weather-forecast-max {
+  font-size: 16px;
+  color: black;
+  opacity: 0.8;
+}
